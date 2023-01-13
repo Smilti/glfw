@@ -26,8 +26,8 @@ project "GLFW"
 		"src/window.c",
 	}
 
+	pic "On"
 	filter "system:linux"
-		pic "On"
 
 		systemversion "latest"
 		
